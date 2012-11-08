@@ -11,7 +11,7 @@ Rainbow.extend([
             2: 'change.deleted',
             3: 'hidden',
         },
-        'pattern': /(\&lt;del\&gt;)(.*?)(\&lt;\/del\&gt;)/g
+        'pattern': /(\&lt;del\&gt;)([\s\S]*?)(\&lt;\/del\&gt;)/g
     },
     {
         'matches': {
