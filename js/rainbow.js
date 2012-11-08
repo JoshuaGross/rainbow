@@ -736,7 +736,6 @@ window['Rainbow'] = (function() {
          * @returns void
          */
         color: function() {
-
             // if you want to straight up highlight a string you can pass the string of code,
             // the language, and a callback function
             if (typeof arguments[0] == 'string') {

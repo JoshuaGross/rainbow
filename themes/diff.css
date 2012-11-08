@@ -1,0 +1,13 @@
+/**
+ * Diff theme for SpanDeX
+ *
+ * @author Joshua Gross
+ * @version 1.0.0
+ */
+pre .change.deleted {
+  text-decoration: line-through;
+  background-color: #ff8888;
+}
+pre .change.inserted {
+  background-color: #88ff88;
+}
